@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#333333"
+    >
+
+    <TextView
+        android:id="@+id/markerDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/md_blue_100"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/markerDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="duration"
+        android:textColor="@color/md_blue_100"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/markerAverageSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="avg speed"
+        android:textColor="@color/md_blue_100"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/markerDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="distance"
+        android:textColor="@color/md_blue_100"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/markerCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calories"
+        android:textColor="@color/md_blue_100"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>
