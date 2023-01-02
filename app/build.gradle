@@ -4,8 +4,8 @@ plugins {
     id("androidx.navigation.safeargs.kotlin")
     id 'kotlin-kapt'
     id "com.google.dagger.hilt.android"
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
-
 
 
 android {
@@ -20,6 +20,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
