@@ -117,10 +117,6 @@ class RunFragment : BaseFragment<FragmentRunBinding>(
         ItemTouchHelper(itemTouchHelper).apply {
             attachToRecyclerView(bind.rvRuns)
         }
-
-
-
-
     }
 
 
